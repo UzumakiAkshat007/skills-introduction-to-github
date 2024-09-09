@@ -1,0 +1,162 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #005f73; /* Vibrant blue background */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for contrast */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #94d2bd; /* Soft mint for hover effect */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    color: #005f73; /* Vibrant blue for text */
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.cta {
+    background-color: #ee6c4d; /* Coral button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #ff9f80; /* Lighter coral for hover */
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #005f73; /* Vibrant blue headings */
+    margin-bottom: 20px;
+}
+
+/* Project Styles */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.project-item h3 {
+    color: #ee6c4d; /* Coral heading for projects */
+}
+
+.project-item a.cta {
+    background-color: #005f73; /* Blue button */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.project-item a.cta:hover {
+    background-color: #94d2bd; /* Mint for hover */
+}
+
+/* Skills List */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ee6c4d; /* Coral button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #ff9f80; /* Hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
